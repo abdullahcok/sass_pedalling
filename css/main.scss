@@ -1,0 +1,19 @@
+@import "header";
+@import "wide";
+@import "footer";
+
+@import "colors";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+section{
+  padding: 100px;
+  background: $text-color;
+  height: 100vh;
+
+}
